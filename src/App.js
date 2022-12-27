@@ -11,7 +11,7 @@ class App extends React.Component {
         {
           id: 1,
           title: 'Chair',
-          img: '#',
+          img: 'chair.jpg',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
           category: 'chairs',
           price: '49.99'
@@ -19,7 +19,7 @@ class App extends React.Component {
         {
           id: 2,
           title: 'Bed',
-          img: '#',
+          img: 'bed.jpg',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
           category: 'Beds',
           price: '249.99'
@@ -27,7 +27,7 @@ class App extends React.Component {
         {
           id: 3,
           title: 'Table',
-          img: '#',
+          img: 'table.jpg',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
           category: 'tables',
           price: '99.99'
@@ -35,7 +35,7 @@ class App extends React.Component {
         {
           id: 4,
           title: 'Dresser',
-          img: '#',
+          img: 'dresser.jpg',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
           category: 'dressers',
           price: '100.99'
@@ -43,7 +43,7 @@ class App extends React.Component {
         {
           id: 5,
           title: 'Armchair',
-          img: '#',
+          img: 'armchair.jpg',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
           category: 'armchairs',
           price: '129.99'
@@ -51,7 +51,7 @@ class App extends React.Component {
         {
           id: 6,
           title: 'Bar stool',
-          img: '#',
+          img: 'bar-stool.jpg',
           desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
           category: 'bar stools',
           price: '99.99'
