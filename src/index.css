@@ -44,3 +44,19 @@ header .presentation::after {
     font-weight: 600;
     color: #fff;
 }
+
+header .presentation::before {
+    content: 'Only For You!';
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    width: 300px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    margin-top: 100px;
+}

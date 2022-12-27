@@ -4,7 +4,7 @@ export default function header() {
   return (
     <header>
         <div>
-            <span className='logo'>House staff</span>
+            <span className='logo'>Home Premium</span>
         </div>
         <div className='presentation'></div>
     </header>
