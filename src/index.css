@@ -38,6 +38,17 @@ header ul.nav li:hover {
     opacity: 0.5;
 }
 
+header .shop-card-button {
+    float: right;
+    cursor: pointer;
+    transition: color 500ms ease;
+}
+
+header .shop-card-button:hover,
+header .shop-card-button.active {
+    color: #dc3d3d;
+}
+
 header .presentation {
     margin: 20px 0;
     background: url('./img/interior-main.jpeg') no-repeat;
