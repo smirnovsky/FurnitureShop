@@ -94,6 +94,14 @@ header .shop-cart .item p {
     font-weight: 600;
 }
 
+header .shop-cart .total {
+    float: left;
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
 header .shop-cart .item .delete-icon {
     color: #ca5252;
     float: right;

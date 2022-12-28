@@ -4,12 +4,14 @@ import Order from './Order';
 
 
 const showOrders = (props) => {
+  let total = 0
+  props.orders.forEach(el => total += Number.parseFloat(el.price))
   return (
     <div>
       {props.orders.map(el => (
         <Order onDelete={props.onDelete} key={el.id} item={el} />
       ))}
-      <p className='total'></p>
+      <p className='total'>Total: ${new Intl.NumberFormat().format(total)}</p>
     </div>
   )
 }
