@@ -67,6 +67,11 @@ header .shop-cart {
     padding-bottom: 0;
 }
 
+header .shop-cart .empty h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
 header .shop-cart .item {
     width: 100%;   
     float: left;
